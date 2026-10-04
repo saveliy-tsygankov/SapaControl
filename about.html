@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>О компании — SAPACONTROL</title>
+    <meta name="description" content="SAPACONTROL — эксперт по приёмке квартир с 2014 года. 4 800+ приёмок, 50 специалистов, 98% довольных клиентов.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="О компании — SAPACONTROL">
+    <meta property="og:description" content="SAPACONTROL — эксперт по приёмке квартир с 2014 года.">
+    <meta property="og:image" content="img/og-cover.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="theme-color" content="#20304A">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__bar">
+                <a href="index.html" class="logo" aria-label="SAPACONTROL — на главную">
+                    <span class="logo__name">SAPA<b>CONTROL</b></span>
+                </a>
+
+                <nav class="nav" id="nav" aria-label="Основная навигация">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="services.html" class="nav__link">Услуги и цены</a></li>
+                        <li class="nav__item"><a href="reports.html" class="nav__link">Отчёты</a></li>
+                        <li class="nav__item"><a href="calculator.html" class="nav__link">Калькулятор</a></li>
+                        <li class="nav__item nav__item--dropdown">
+                            <button class="nav__link" type="button" data-dropdown aria-expanded="false">
+                                Ещё <i class="arrow"></i>
+                            </button>
+                            <div class="dropdown dropdown--narrow">
+                                <div class="dropdown__col">
+                                    <a href="about.html">О компании</a>
+                                    <a href="reviews.html">Отзывы</a>
+                                    <a href="contacts.html">Контакты</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="phone">
+                    <a href="tel:+99000000000" class="phone__number">+9 900 00 00 00</a>
+                    <span class="phone__time">(9:00 — 21:00)</span>
+                    <a href="#" class="phone__flag" aria-label="Сменить язык"><img src="img/flag.png" alt=""></a>
+                </div>
+
+                <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">О компании</h1>
+                <p class="page-hero__subtitle">SAPACONTROL — эксперт по приёмке квартир с 2014 года</p>
+            </div>
+        </section>
+        <section class="section section--white section--top-rounded">
+            <div class="container">
+                <div class="stats">
+                    <div class="stat"><b data-counter="4800" data-suffix="+">0</b><span>приёмок</span></div>
+                    <div class="stat"><b data-counter="10" data-suffix=" лет">0</b><span>на рынке</span></div>
+                    <div class="stat"><b data-counter="50">0</b><span>специалистов</span></div>
+                    <div class="stat"><b data-counter="98" data-suffix="%">0</b><span>довольных клиентов</span></div>
+                </div>
+                <p class="about-text">Мы проверяем квартиры с использованием сертифицированного оборудования: тепловизоры, лазерные уровни, влагомеры, анемометры. Наши специалисты знают нормативы и помогают клиентам отстоять свои права перед застройщиком.</p>
+                <div class="docs-grid">
+                    <a href="#" class="doc-card"><span>PDF</span><h3>Свидетельство СРО</h3></a>
+                    <a href="#" class="doc-card"><span>PDF</span><h3>Политика конфиденциальности</h3></a>
+                    <a href="#" class="doc-card"><span>PDF</span><h3>Образец акта осмотра</h3></a>
+                    <a href="#" class="doc-card"><span>PDF</span><h3>Реквизиты компании</h3></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="index.html" class="logo logo--footer" aria-label="SAPACONTROL">
+                    <span class="logo__name">SAPA<b>CONTROL</b></span>
+                </a>
+                <nav class="footer__nav" aria-label="Меню подвала">
+                    <a href="services.html">Услуги и цены</a>
+                    <a href="reports.html">Отчёты</a>
+                    <a href="calculator.html">Калькулятор</a>
+                    <a href="reviews.html">Отзывы</a>
+                    <a href="about.html">О компании</a>
+                    <a href="contacts.html">Контакты</a>
+                </nav>
+                <div class="footer__contacts">
+                    <a href="tel:+99000000000" class="footer__phone">+9 900 00 00 00</a>
+                    <span class="footer__time">(9:00 — 21:00)</span>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 SAPACONTROL. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

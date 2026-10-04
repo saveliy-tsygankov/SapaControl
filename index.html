@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAPACONTROL — приёмка квартир в новостройке</title>
+    <meta name="description" content="Профессиональная приёмка квартир в новостройке. Устраняем дефекты за счёт застройщика. 4 800+ приёмок, 10 лет на рынке.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SAPACONTROL — приёмка квартир в новостройке">
+    <meta property="og:description" content="Профессиональная приёмка квартир в новостройке. Устраняем дефекты за счёт застройщика.">
+    <meta property="og:image" content="img/og-cover.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="theme-color" content="#20304A">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__bar">
+                <a href="index.html" class="logo" aria-label="SAPACONTROL — на главную">
+                    <span class="logo__name">SAPA<b>CONTROL</b></span>
+                </a>
+
+                <nav class="nav" id="nav" aria-label="Основная навигация">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="services.html" class="nav__link">Услуги и цены</a></li>
+                        <li class="nav__item"><a href="reports.html" class="nav__link">Отчёты</a></li>
+                        <li class="nav__item"><a href="calculator.html" class="nav__link">Калькулятор</a></li>
+                        <li class="nav__item nav__item--dropdown">
+                            <button class="nav__link" type="button" data-dropdown aria-expanded="false">
+                                Ещё <i class="arrow"></i>
+                            </button>
+                            <div class="dropdown dropdown--narrow">
+                                <div class="dropdown__col">
+                                    <a href="about.html">О компании</a>
+                                    <a href="reviews.html">Отзывы</a>
+                                    <a href="contacts.html">Контакты</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="phone">
+                    <a href="tel:+99000000000" class="phone__number">+9 900 00 00 00</a>
+                    <span class="phone__time">(9:00 — 21:00)</span>
+                    <a href="#" class="phone__flag" aria-label="Сменить язык"><img src="img/flag.png" alt=""></a>
+                </div>
+
+                <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <h1 class="hero__title">ПРИЕМКА КВАРТИРЫ В НОВОСТРОЙКЕ</h1>
+                        <p class="hero__subtitle">Закажите приёмку квартиры и устраните дефекты за счёт застройщика</p>
+
+                        <div class="hero__calc">
+                            <div class="calc-mini">
+                                <div class="calc-mini__row">
+                                    <span class="calc-mini__label">Площадь</span>
+                                    <span class="calc-mini__value"><span data-area-value>50</span> м²</span>
+                                </div>
+                                <input type="range" min="1" max="150" value="50" class="range" data-area-range aria-label="Площадь квартиры, м²">
+                            </div>
+                            <a href="calculator.html" class="btn btn--primary">Узнать стоимость</a>
+                        </div>
+                    </div>
+
+                    <div class="hero__image">
+                        <img src="img/offer.svg" alt="Специалист по приёмке квартиры">
+                    </div>
+
+                    <ul class="socials socials--vertical" aria-label="Мессенджеры">
+                        <li><a href="tel:+99000000000" aria-label="Phone"><img src="img/1.png" alt=""></a></li>
+                        <li><a href="https://t.me/sapacontrol" aria-label="Telegram"><img src="img/2.png" alt=""></a></li>
+                        <li><a href="https://wa.me/99000000000" aria-label="WhatsApp"><img src="img/3.png" alt=""></a></li>
+                        <li><a href="mailto:info@sapacontrol.ru" aria-label="Mail"><img src="img/4.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--white section--top-rounded">
+            <div class="container">
+                <h2 class="section__title section__title--center">Вас пригласили на осмотр квартиры в новостройке?</h2>
+                <p class="section__subtitle">
+                    Вызовите квалифицированного специалиста по приёмке со всем необходимым оборудованием,
+                    чтобы потом не заниматься устранением недоделок за свой счёт
+                </p>
+
+                <div class="cards">
+                    <article class="info-card">
+                        <h3>97% квартир сдаётся с дефектами</h3>
+                        <p>Без опыта в строительстве и специальных инструментов вы сможете заметить только крупные косметические дефекты.</p>
+                        <img src="img/card1.svg" alt="">
+                    </article>
+                    <article class="info-card">
+                        <h3>Не устраняйте недоделки за свой счёт</h3>
+                        <p>Если акт приёма-передачи уже подписан, поправить несовершенства за счёт застройщика будет невозможно.</p>
+                        <img src="img/card2.svg" alt="">
+                    </article>
+                    <article class="info-card">
+                        <h3>Сэкономьте на ремонте от 300 000 ₽</h3>
+                        <p>Своевременное обнаружение дефектов избавит от лишних трат и необходимости судиться с застройщиком.</p>
+                        <img src="img/card3.svg" alt="">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--light section--top-rounded">
+            <div class="container">
+                <h2 class="section__title section__title--center">Часто встречающиеся нарушения</h2>
+
+                <div class="tabs" data-tabs>
+                    <div class="tabs__nav" role="tablist">
+                        <button class="tabs__btn is-active" data-tab="doors" role="tab">Двери и окна</button>
+                        <button class="tabs__btn" data-tab="walls" role="tab">Пол и стены</button>
+                        <button class="tabs__btn" data-tab="water" role="tab">Канализация и вода</button>
+                        <button class="tabs__btn" data-tab="vent" role="tab">Вентиляция</button>
+                        <button class="tabs__btn" data-tab="electro" role="tab">Электричество</button>
+                    </div>
+
+                    <div class="tabs__body">
+                        <div class="tabs__panels">
+                            <div class="defects is-active" data-tab-panel="doors">
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Зазоры в оконных рамах</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Не отрегулированы створки</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Царапины на стеклопакетах</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Перекос дверных коробок</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Не работает фурнитура</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Продувание из-под двери</p></div>
+                            </div>
+
+                            <div class="defects" data-tab-panel="walls">
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Отклонение по вертикали стены</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Не заделаны штробы</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Разнотон обоев</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Перепад уровня пола</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Трещины по штукатурке</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Плесень в местах стыков</p></div>
+                            </div>
+
+                            <div class="defects" data-tab-panel="water">
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Протечки в местах соединений</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Отсутствие гидрозатвора</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Неверный уклон труб</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Нет ревизионных люков</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Конденсат на трубах</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Слабый напор воды</p></div>
+                            </div>
+
+                            <div class="defects" data-tab-panel="vent">
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Отсутствие тяги</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Обратная тяга</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Засорение вентканалов</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Нет вентиляционных решёток</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Низкая скорость воздухообмена</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Шум в вентканале</p></div>
+                            </div>
+
+                            <div class="defects" data-tab-panel="electro">
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Отсутствие заземления</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Неверное подключение розеток</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Отсутствие УЗО</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Неправильная маркировка</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Недостаточное сечение кабеля</p></div>
+                                <div class="defect"><img src="img/no.svg" alt=""><p>Не работает освещение</p></div>
+                            </div>
+                        </div>
+
+                        <aside class="tabs__aside">
+                            <h3>В среднем за приёмку выявляется</h3>
+                            <h3 class="text-orange">около 50 нарушений</h3>
+                            <p>70% нарушений обнаружены благодаря сертифицированным и дорогостоящим приборам, а также знаниям нормативов.</p>
+                            <img src="img/pol.svg" alt="" class="tabs__img">
+                            <div class="btn-row">
+                                <a href="#" class="btn btn--ghost" aria-label="App Store"><img src="img/btn1.png" alt="App Store"></a>
+                                <a href="#" class="btn btn--ghost" aria-label="Google Play"><img src="img/btn2.png" alt="Google Play"></a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section_inner">
+            <div class="container">
+                <div class="cta__inner">
+                    <div class="cta__content">
+                        <h3>Отправьте заявку и получите <span class="pill">в подарок</span>:</h3>
+                        <p>Расчёт площади квартиры, рекомендации по ремонту, дизайну и строительной бригаде</p>
+
+                        <form class="form" data-form novalidate>
+                            <div class="form__row">
+                                <input class="form__input" type="tel" name="phone" placeholder="Телефон: +9 (___) ___-__-__" required>
+                                <button class="btn btn--primary" type="submit">Отправить</button>
+                            </div>
+                            <p class="form__note">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных</p>
+                            <p class="form__success" hidden>Спасибо! Мы свяжемся с вами в течение 15 минут.</p>
+                        </form>
+                    </div>
+                    <div class="cta__image"><img src="img/form.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--bottom-rounded">
+            <div class="container">
+                <h2 class="section__title--center">Приёмка в квартирах</h2>
+
+                <div class="service-grid">
+                    <article class="service-card">
+                        <img src="img/ser1.png" alt="">
+                        <h3>Без отделки</h3>
+                        <p>Исправность розеток, канализация и водопровод, изгибы полов и потолков…</p>
+                        <a href="services.html#bez-otdelki" class="service-card__more">ещё 5</a>
+                        <div class="service-card__price">
+                            <h4>70 ₽/м²</h4>
+                            <span>от 3 000 ₽</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/ser1.png" alt="">
+                        <h3>С отделкой</h3>
+                        <p>Исправность розеток, канализация и водопровод, изгибы полов и потолков…</p>
+                        <a href="services.html#s-otdelkoy" class="service-card__more">ещё 5</a>
+                        <div class="service-card__price">
+                            <h4>100 ₽/м²</h4>
+                            <span>от 4 000 ₽</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/ser1.png" alt="">
+                        <h3>С предчистовой отделкой</h3>
+                        <p>Исправность розеток, канализация и водопровод, изгибы полов и потолков…</p>
+                        <a href="services.html#predchistovaya" class="service-card__more">ещё 5</a>
+                        <div class="service-card__price">
+                            <h4>120 ₽/м²</h4>
+                            <span>от 4 000 ₽</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="section__actions">
+                    <a href="services.html" class="btn btn--outline">Смотреть все услуги</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="index.html" class="logo logo--footer" aria-label="SAPACONTROL">
+                    <span class="logo__name">SAPA<b>CONTROL</b></span>
+                </a>
+                <nav class="footer__nav" aria-label="Меню подвала">
+                    <a href="services.html">Услуги и цены</a>
+                    <a href="reports.html">Отчёты</a>
+                    <a href="calculator.html">Калькулятор</a>
+                    <a href="reviews.html">Отзывы</a>
+                    <a href="about.html">О компании</a>
+                    <a href="contacts.html">Контакты</a>
+                </nav>
+                <div class="footer__contacts">
+                    <a href="tel:+99000000000" class="footer__phone">+9 900 00 00 00</a>
+                    <span class="footer__time">(9:00 — 21:00)</span>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 SAPACONTROL. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
